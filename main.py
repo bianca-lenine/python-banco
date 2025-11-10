@@ -1,6 +1,7 @@
 # Banco em Python
 
 def main():
-    print('Hello')
+    nome = input('Informe seu nome: ')
+    print('Bem vindo ao Python Banco' + nome)
 
 main()
