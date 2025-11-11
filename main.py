@@ -12,7 +12,9 @@ def main():
     """
 
     nome = input('Informe seu nome: ')
-    print('Bem vindo ao Python Banco' + nome) # Arrumar espaçamento
+    print('Bem vindo ao Python Banco ' + nome) 
+    conta = print('Informe o número da conta:') 
+
 
     """
     TODO: 
@@ -21,5 +23,6 @@ def main():
     - Salvar o cadastro do usuário para futuras sessoes (arquivo JSON em uma pasta chamada `data`)
     - Chamar LLM para dar dicas personalizadas para o cliente com base nos dados dele
     """
-
+def cadastro(nome, conta):
+    
 main()
