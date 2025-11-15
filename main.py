@@ -1,14 +1,14 @@
 
 def main():
 
-    #
-    Python Banco Menu 
-    1. Criar uma conta
-    2. Consultar saldo
-    3. Deposito
-    4. Saque
-    5. Sair
-    #
+    # #
+    # Python Banco Menu 
+    # 1. Criar uma conta
+    # 2. Consultar saldo
+    # 3. Deposito
+    # 4. Saque
+    # 5. Sair
+    # #
 
     cadastro_contas = CadastroConta()
     
