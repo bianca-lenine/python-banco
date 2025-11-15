@@ -1,20 +1,23 @@
-# Banco em Python
 
 def main():
 
-    """
-    Java Python Menu Loop
+    #
+    Python Banco Menu 
     1. Criar uma conta
     2. Consultar saldo
     3. Deposito
     4. Saque
     5. Sair
-    """
+    #
 
+    cadastro_contas = CadastroConta()
+    
     nome = input('Informe seu nome: ')
     print('Bem vindo ao Python Banco ' + nome) 
-    conta = print('Informe o número da conta:') 
-
+   
+   numero_conta = input ('Informe o número da conta: ')
+   
+   conta= cadastro_contas.cadastrar(nome, numero_conta)
 
     """
     TODO: 
@@ -24,5 +27,6 @@ def main():
     - Chamar LLM para dar dicas personalizadas para o cliente com base nos dados dele
     """
 def cadastro(nome, conta):
-    
+
 main()
+ 
